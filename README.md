@@ -1,6 +1,8 @@
 ### Hi there, I am Burson👋. I am a P.h.D Candidate at UCLA
 
-- :ocean: I'm curretnly working on urban coastal flood modeling.
+- :ocean: I'm a coastal modeler and curretnly working on urban coastal flood inundation modeling.
+- 🌱 I have been learning data science related topics inlucding: Algorithms, Data structure, SQL, ML, NN,  
+- 😄 Pronouns: he/him
 
 <!--
 **BursonTang/BursonTang** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
