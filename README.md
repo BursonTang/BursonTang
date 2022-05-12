@@ -1,7 +1,7 @@
 ### Hi there, I am Burson👋.
 
 - :ocean: I'm a coastal engineering P.h.D Candidate at UCLA and currently working on compound urban coastal flood inundation modeling.
-- 🌱 I have been learning data science-related topics including Algorithms, Data Structure, SQL, ML, NN.  
+- 🌱 I am a self-motivated data science learner! Have been learning data science-related topics including [Statistic Computing](https://ucla-biostat-257-2020spring.github.io/syllabus/syllabus.html), Data Structure, SQL, [Machine Learning](https://coursera.org/share/b62512c690f0f4a124bee88e78cbbb7c), [Deep Learning](https://coursera.org/share/d27884147774f73b56705836b16236a8).  
 - 😄 Pronouns: he/him
 
 <!--
