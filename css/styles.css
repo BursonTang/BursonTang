@@ -1,0 +1,248 @@
+body {
+    margin:0px;
+    text-align:center;
+    height: auto;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin-top: 0;
+    height: 2;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    color:#66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size:2rem;
+    color: black;
+    /* #66BFBF; */
+}
+
+h3 {
+    font-family: Georgia, serif;
+    color: black;
+    /* #11999E; */
+}
+
+hr.hline{
+  border-style: solid none none none;
+  border-color: #182B49;
+  border-width: 0.5px;
+  width: 95%
+}
+
+hr {
+    background-color: white;
+    border-style: dotted none none none;
+    border-color: #182B49;
+    /* #EAF6F6; */
+    border-width: 5px;
+    margin: 50px auto;
+    width: 50px;
+}
+
+a {
+    color: #224b8d;
+    text-decoration: none;
+}
+
+td{
+  vertical-align: top;
+}
+
+/* Navigation Panel */
+.nav {
+  position: fixed;
+  list-style: none;
+  display: block;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.nav > #my_photo {
+  position: absolute;
+  left: 50px;
+  z-index: 1;
+}
+
+.bg_photo {
+  width: 100%;
+  height: 190px;
+  object-fit:cover;
+  object-position: 0% 20%;
+}
+
+.nav > h1 {
+  font-family: Georgia, serif;
+  font-size: 3rem;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  position: absolute;
+  left: 270px;
+  top: 95px;
+}
+
+.fphoto_copy_right {
+  font-family: Georgia, serif;
+  font-size: 0.5rem;
+  color: black;
+  position: absolute;
+  left: 90%;
+  top: 1%;
+  display: inline-block;
+}
+
+.nav_bar {
+  background-color: #182B49;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  top: 160px;
+  /* opacity: 0.3; */
+}
+
+.nav_links {
+  position: absolute;
+  top: -12.5px;
+  left: 270px;
+  z-index: 2;
+}
+
+.nav_links > li {
+  display: inline-block;
+  padding: 0 25px;
+}
+
+.nav_links > li > a{
+  text-decoration: none;
+  color: white
+}
+
+
+.top-container {
+  /* width: 100%; */
+  background-color: white;
+  position: relative;
+  padding-top: 200px;
+}
+
+.profile{
+  width: 95%;
+  margin: 0 auto;
+  line-height: 1.3rem;
+  text-align: left;
+  padding: 0 2.5% 5% 2.5%;
+}
+
+*.skill-row{
+  width: 70%;
+  margin:100px auto;
+  text-align: left;
+  line-height: 2;
+  padding-bottom: 30px;
+}
+
+*.skill-img_l{
+  width:25%;
+  margin: 0 auto;
+  float: left;
+  padding-right: 30px;
+}
+
+*.skill-img_r{
+  width:25%;
+  margin: 0 auto;
+  float: right;
+  padding-left: 30px;
+}
+
+
+.contact-me{
+  line-height: 2;
+  width: 40%;
+  margin: 0 auto;
+  padding-bottom: 150px;
+}
+
+
+.bottom-container{
+  padding: 30px 0 30px;
+  background-color: #182B49;
+  /* position: relative;
+  width: 100%;
+  bottom: 2vh; */
+  /* #66BFBF; */
+}
+
+/* items */
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  bottom: -50px;
+  margin: 200px 0 120px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+.footer-link{
+  color:#11999E;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+.copy_right{
+  color:white;
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+
+
+/* images */
+#my_photo{
+  width:200px;
+  height:200px;
+}
+
+
+#top_cloud{
+  position: relative;
+  right: 30%;
+  top: 50px;
+}
+
+#bot_cloud{
+  position: relative;
+  left: 15%;
+  bottom: 200px;
+}
+
+.publication-figures {
+  padding: 20px 20px 20px 20px;
+  width: 500px
+}
